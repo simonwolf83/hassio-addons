@@ -1,4 +1,4 @@
-FROM quantumentangledandy/neolink:v0.6.2
+FROM patriot1889/neolink
 
 RUN apt-get update && \
     apt-get install -y \
