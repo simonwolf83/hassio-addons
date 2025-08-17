@@ -1,4 +1,4 @@
-FROM patriot1889/neolink
+FROM ghcr.io/simonwolf83/neolink
 
 RUN apt-get update && \
     apt-get install -y \
