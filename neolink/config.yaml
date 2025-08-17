@@ -20,5 +20,5 @@ options:
   mode: rtsp
   log: info
 schema:
-  mode: list(rtsp|mqtt|dual)
-  log: list(info|warn|error|debug)
+  mode: list(rtsp|mqtt|dual|talk)
+  log: list(info|warn|error|debug|trace)
