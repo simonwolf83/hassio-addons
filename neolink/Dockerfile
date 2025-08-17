@@ -1,4 +1,4 @@
-FROM ghcr.io/simonwolf83/neolink
+FROM ghcr.io/simonwolf83/neolink:multiarch
 
 RUN apt-get update && \
     apt-get install -y \
