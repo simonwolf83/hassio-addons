@@ -24,6 +24,9 @@ case $LOG in
   debug)
     export RUST_LOG="neolink=debug"
     ;;
+  trace)
+    export RUST_LOG="neolink=trace"
+    ;;
   info)
     export RUST_LOG="neolink=info"
     ;;
@@ -51,6 +54,10 @@ case $MODE in
     neolink mqtt-rtsp --config /config/neolink.toml
     ;;
 
+  talk)
+    neolink talk --config /config/neolink.toml Haupteingang --microphone
+    ;;
+    
   *)
     echo -n "Unknown mode option"
     ;;
